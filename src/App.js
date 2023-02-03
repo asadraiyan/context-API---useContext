@@ -1,18 +1,14 @@
-import React, {createContext} from 'react'
-import CompA from './Components/CompA'
-
-const firstname = createContext()
+import React from 'react'
+import Github from './Components/Github'
+import "./App.css"
 
 const App = () => {
- 
   return (
     <div>
-      <firstname.Provider value= {"Asad Raiyan"}>
-      <CompA/>
-      </firstname.Provider>
+      <Github/>
     </div>
   )
 }
 
 export default App
-export {firstname}
+

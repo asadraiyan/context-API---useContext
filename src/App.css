@@ -1,1 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(175, 224, 243);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 365px;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    /* border: 2px solid brown; */
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.image{
+    /* border: 2px solid blue; */
+    width: 155px;
+    height: 120px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 135px;
+    height: 120px; 
+    border-radius: 5px; 
+}
+.user-name{
+    /* border: 2px solid yellow; */
+    width: 210px;
+    height: 50px;
+}
+.followers{
+    /* border: 2px solid green; */
+    width: 205px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-top: 15px;
+}
+.user{
+    margin-left: 45px;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
