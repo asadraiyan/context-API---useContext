@@ -14,7 +14,7 @@ const Github = () => {
 
     return (
         <>
-            <h1 className='heading'>List Of Github Users</h1>
+            <div className="main-heading"><h1 className='heading'>List Of GitHub Users</h1></div>
             <div className="main-container">
                 {
                     users.map((curelement) => {
@@ -23,17 +23,17 @@ const Github = () => {
                             <div>
                                 <div className='container'>
                                     <div className="image">
-                                        <img src={ curelement.avatar_url}  alt="" className='img' />
+                                        <img src={curelement.avatar_url} alt="" className='img' />
                                     </div>
                                     <div className="box">
                                         <div className="user-name">
                                             <h3>{curelement.login}</h3>
-                                            <p className='user'>following/other_user</p>
+                                            <p className='user'>following/other_user </p>
                                         </div>
                                         <div className="followers">
                                             <div className="articles"> <span>Articles</span><span>38</span></div>
-                                            <div className="follow"> <span>Followers</span><span>40</span></div>
-                                            <div className="rating"> <span>Rating</span><span>30</span></div>
+                                            <div className="follow"> <span>Followers</span><span>950</span></div>
+                                            <div className="rating"> <span>Rating</span><span>8.8</span></div>
                                         </div>
                                     </div>
 
