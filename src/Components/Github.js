@@ -20,7 +20,7 @@ const Github = () => {
                     users.map((curelement) => {
 
                         return (
-                            <div>
+                            <div key={curelement.id}>
                                 <div className='container'>
                                     <div className="image">
                                         <img src={curelement.avatar_url} alt="" className='img' />
