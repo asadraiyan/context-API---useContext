@@ -11,7 +11,8 @@ body {
     background-image: linear-gradient(to right, #cd91b3, #c993c1, #c197ce, #b49cdc, #a3a2e8, #8facf3, #78b6fb, #5cc0ff, #40cfff, #30dcfd, #3ee8f5, #5df3ea);
     font-family: 'Josefin Sans', sans-serif;
 }
-.main-heading{
+
+.main-heading {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -22,18 +23,18 @@ body {
 
 .heading {
     text-align: center;
-   
+
 }
 
 .main-container {
     /* border: 2px solid green; */
-   
+
     display: grid;
     grid-template-columns: auto auto auto;
     margin-bottom: 10px;
     justify-content: space-around;
 
-    
+
 }
 
 .container {
@@ -114,10 +115,11 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 @media only screen and (max-width: 700px) {
     .main-container {
         display: grid;
         grid-template-columns: auto;
-        
+
     }
 }
