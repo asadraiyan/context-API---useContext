@@ -7,6 +7,7 @@ const Github = () => {
         const response = await fetch("https://api.github.com/users")
         setUsers(await response.json())
         // console.log(data)
+    
     }
     useEffect(() => {
         getUsers()
